@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Snake>
+	<ZhDictinary>
+		<item id="0">开始游戏</item>
+		<item id="1">设置</item>
+		<item id="2">说明</item>
+		<item id="3">当前模式</item>
+		<item id="4">历史最高分</item>
+		<item id="5">当前得分</item>
+		<item id="6">当前速度</item>
+		<item id="7">得分加成</item>
+		<item id="8">暂停游戏</item>
+		<item id="9">返回主界面</item>
+		<item id="10">继续游戏</item>
+		<item id="11">经典</item>
+		<item id="12">自由</item>
+		<item id="13">当前长度</item>
+		<item id="14">是否重新开始？</item>
+		<item id="15">确认</item>
+		<item id="16">返回</item>
+		<item id="17">常规设置</item>
+		<item id="18">高级设置</item>
+		<item id="19">语言</item>
+		<item id="20">中文</item>
+		<item id="21">英文</item>
+		<item id="22">主题</item>
+		<item id="23">浅色</item>
+		<item id="24">深色</item>
+		<item id="25">公告</item>
+		<item id="26">公告:&#xA;刚转行学编程不到一年，为了提升自己的水平，尝试从零开发“贪吃蛇”小游戏，UI素材借助网上现有的贪吃蛇项目。目前网络上用Unity实现贪吃蛇的文章，更多是用最少的代码实现，采用脚本挂载方式。我尝试用脚本驱动，过程中，一边巩固自己刚学的23种设计模式在其中的运用，比例单例模式等,写一个更加“健壮”的贪吃蛇。
+			&#xA;过程种仅是尽量将自己短暂开发时间学到的东西融入其中，希望从初学者的角度，能让unity、C#编程、设计模式的初学者有所收获。过程之中定有很多不足之处，欢迎大家批评指正、共同交流、共同进步！</item>
+		<item id="27">介绍</item>
+		<item id="28">游戏介绍：&#xA;贪吃蛇游戏中，利用键盘按键WASD进行移动，“W”按键按下向上移动，“A”按键按下向左移动，“S”按键按下向下移动，“D”按键按下向右移动。按下空格+R键，隐藏标题栏，按下空格+T键，显示标题栏，可对游戏窗口进行最小化、最大化以及关闭操作。长按空格键实现小蛇移动加速，速度会实时显示在左侧参数栏，速度上限为500。
+			窗口相关设置，初始运行满屏显示，按下“空格+S”显示标题栏，按下“空格+H”隐藏标题栏，按下“空格+X”窗口化游戏窗口，大小为1366*768，按下“空格+F”满屏。
+			&#xA;1、模式设置
+			经典模式：小蛇吃到一个食物长度加1，加分10分，如果吃到奖励，随机加分0-100分,得分加成会在游戏界面左侧“得分加成”中显示。移动过程中如果蛇头碰到边界墙体或者自己身体，则触发死亡。
+			自由模式：得分规则与经典模式一致，不同的是，自由模式中蛇头碰到墙体会“穿越”，从相反的墙体中出来，不会触发死亡，只有蛇头碰到自身身体时，才会触发死亡。
+			&#xA;2、语言设置
+			游戏语言可在中文、英文之间自由切换。
+			&#xA;3、主题设置
+			游戏背景主题可在浅色与深色之间自由切换。
+			&#xA;4、食物设置
+			小蛇食物目前有两种款式，一种是冰淇淋食物，一种是植物、花朵食物，可自由切换。
+			&#xA;5、小蛇皮肤设置
+			小蛇皮肤目前有两种款式，一种是黄色皮肤，一种是蓝色皮肤，可自由切换。
+
+		</item>
+		<item id="29">食物</item>
+		<item id="30">小蛇皮肤</item>
+		<item id="31">冰淇淋</item>
+		<item id="32">植物</item>
+		<item id="33">蓝色</item>
+		<item id="34">黄色</item>
+		<item id="35">敬请期待......</item>
+		<item id="36">退出</item>
+		<item id="37">最大化</item>
+		<item id="38">最小化</item>
+		<item id="39"> </item>
+		<item id="40">游戏模式</item>
+		<item id="41">单局时长</item>
+		<item id="42">长度</item>
+		<item id="43">分数</item>
+		<item id="44">时间</item>
+		<item id="45">模式</item>
+		<item id="46">编号</item>
+		<item id="47">历史记录</item>
+	</ZhDictinary>
+	<EnDictinary>
+		<item id="0">BEGIN</item>
+		<item id="1">Setting</item>
+		<item id="2">Caption</item>
+		<item id="3">CurrentMode</item>
+		<item id="4">HighestScore</item>
+		<item id="5">CurrentScore</item>
+		<item id="6">CurrentSpeed</item>
+		<item id="7">ScoreBonus</item>
+		<item id="8">Pause</item>
+		<item id="9">BackToHome</item>
+		<item id="10">Continue</item>
+		<item id="11">Classic</item>
+		<item id="12">Freedom</item>
+		<item id="13">CurrentLength</item>
+		<item id="14">Whether to start over？</item>
+		<item id="15">Confirm</item>
+		<item id="16">Return</item>
+		<item id="17">NormalSetting</item>
+		<item id="18">AdvancedSetting</item>
+		<item id="19">Language</item>
+		<item id="20">Chinese</item>
+		<item id="21">English</item>
+		<item id="22">Theme</item>
+		<item id="23">Light</item>
+		<item id="24">Dark</item>
+		<item id="25">Announcement</item>
+		<item id="26">Announcement:&#xA;
+			I just switched to programming for less than a year. In order to improve my level, I tried to develop the 'Snake' game from scratch. The UI material used the existing Snake project on the Internet. At present, most of the articles on the Internet using Unity to realize greedy snakes are realized with the least code, and the method of script mounting is adopted. I tried to use script-driven. In the process, I consolidated the application of the 23 design patterns I just learned, and wrote a more 'robust' snake.The process is just trying to integrate what I have learned in my short development time into it. I hope that from the perspective of beginners, beginners in unity, C# programming, and design patterns can gain something.
+			&#xA;There must be many deficiencies in the process, everyone is welcome to criticize and correct, communicate together,and make progress together!
+		</item>
+		<item id="27">Introduction</item>
+		<item id="28">Game introduction:&#xA; In the Snake game, use the keyboard keys WASD to move, press the "W" key to move up, press the "A" key to move to the left, press the "S" key to move down, and the "D" button to move to the right .Press the space + R key to hide the title bar, press the space + T key to display the title bar, you can minimize, maximize and close the game window. Press the space bar to accelerate the movement of the snake, the speed will be displayed in real time on the left parameter bar, The speed cap is 500.
+			Window-related settings, the initial run full screen display, press "Space+S" to display the title bar, press "Space+H" to hide the title bar, press "Space+X" to window the game window, the size is 1366*768, Press "Space + F" to fill the screen.
+			&#xA;1、PlayMode
+			Classic Mode: If the snake eats a piece of food, the length will be increased by 1, and 10 points will be added. If the snake eats a reward, 0-100 points will be added randomly, and the score bonus will be displayed in the "Score Bonus" on the left side of the game interface. If the snake's head touches the boundary wall or its own body during the movement, death will be triggered.
+			Free mode: The scoring rules are consistent with the classic mode. The difference is that in the free mode, the snake head will "pass through" when it hits the wall, and it will not trigger death when it comes out of the opposite wall. Only when the snake head touches its own body will it trigger death.
+			&#xA;2、Language
+			The game language can be freely switched between Chinese and English.
+			&#xA;3、Theme
+			The game background theme can be freely switched between light and dark.
+			&#xA;4、Food
+			here are currently two styles of snake food, one is ice cream food, and the other is plant and flower food, which can be switched freely.
+			&#xA;5、Snake skin
+			There are currently two styles of snake skin, one is yellow skin and the other is blue skin, which can be switched freely.
+		</item>
+		<item id="29">Food</item>
+		<item id="30">SnakeSkin</item>
+		<item id="31">IceCream</item>
+		<item id="32">Plant</item>
+		<item id="33">Blue</item>
+		<item id="34">Yellow</item>
+		<item id="35">Please stay tuned......</item>
+		<item id="36">Quit</item>
+		<item id="37">Maximize</item>
+		<item id="38">Minimize</item>
+		<item id="39"> </item>
+		<item id="40">PlayMode</item>
+		<item id="41">Duration</item>
+		<item id="42">Length</item>
+		<item id="43">Score</item>
+		<item id="44">Time</item>
+		<item id="45">Mode</item>
+		<item id="46">Number</item>
+		<item id="47">HistoryRecord</item>
+	</EnDictinary>
+</Snake>
